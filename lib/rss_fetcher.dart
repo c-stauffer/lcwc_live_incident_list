@@ -4,7 +4,7 @@ import 'package:dart_rss/dart_rss.dart';
 import 'package:lcwc_live_incident_list/incident.dart';
 
 class RssFetcher {
-// SEE: https://pub.dev/packages/dart_rss/example
+  // SEE: https://pub.dev/packages/dart_rss/example
   final _client = http.Client();
   String _url = '';
 
